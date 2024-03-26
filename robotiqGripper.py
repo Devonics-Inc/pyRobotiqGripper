@@ -540,7 +540,7 @@ class RobotiqGripper( mm.Instrument ):
         self._bCoef=(openmm*cbit-obit*closemm)/(cbit-obit)
     
     def printInfo(self):
-        """Print gripper register info in the python treminal
+        """Print gripper register info in the python treminal fldkfgj
         """
         self.readAll()
         for key,value in self.paramDic.items():
